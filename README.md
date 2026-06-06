@@ -18,13 +18,19 @@ npm run dev
 - `fullMarkdown`：简历正文（Markdown，桌面/移动共用）
 - `desktopFullStyle` / `mobileFullStyle`：动画里逐字打出的 CSS 片段（数组按阶段播放）
 
-## 部署（GitHub Pages 等）
+## 部署
+
+推送到 `main` 分支后，GitHub Actions 会自动构建并部署到 GitHub Pages。
+
+- 自定义域名：`resume.zhangyisui.top`（见 `public/CNAME`）
+- `vite.config.js` 中 `base: '/'`，适配根路径域名部署
+
+本地构建预览：
 
 ```bash
 npm run build
+npm run preview
 ```
-
-将 `dist` 目录内容上传即可。`vite.config.js` 中已设置 `base: './'`，适合子路径部署。
 
 ## 技术栈
 
