@@ -2,6 +2,7 @@
   "name": "resume",
   "version": "2.0.0",
   "description": "Animated resume built with Vue 3",
+  "homepage": "https://resume.zhangyisui.top",
   "private": true,
   "type": "module",
   "scripts": {

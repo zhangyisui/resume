@@ -38,3 +38,7 @@ npm run build
 ## 注：改 `resumeContent.js` 会影响具体的页面布局
 
 动画把 `desktopFullStyle` / `mobileFullStyle` 里的字符串写进 `currentStyle`，左侧 `StyleEditor` 会把它变成生效的样式
+
+---
+
+在线预览：<https://resume.zhangyisui.top>
